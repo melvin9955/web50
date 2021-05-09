@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            header{
+                text-align: right;
+            }
+            div{
+                text-align: center;
+                padding-top: 5%;
+            }
+            h1{
+                font-size: 100px;
+            }
+            h5{
+                color: lightskyblue;
+                font-size: 10px;
+                padding-left: 250px;
+            }
+            #input{
+                height: 40px;
+                border-radius: 50px;
+                border-style: solid;
+                border-width: thin;
+                border-color:lightgray;
+                padding-left: 20px;
+                max-width: 80%;
+                width: 600px;
+                }
+            input{
+                border-style: none;
+            }
+        </style>
+    </head>
+    <header>        
+        <a href="index.html">Google Search</a>
+    <header>
+        <body>
+            <div>
+                <h1>
+                     <span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+                </h1><h5>image</h5>
+                <form method="GET" action="https://images.google.com/images">
+                    <input id="input" type="text" name="q" >
+                    <br><br>
+                    <input type="submit" value="Google Search">
+                </form>
+            </div>
+        </body>
+</html>

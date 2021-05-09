@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            header{
+                text-align: right;
+            }
+            div{
+                text-align: center;
+                padding-top: 5%;
+            }
+            #h1{
+                font-size: 50px;
+            }
+            #input{
+                height: 40px;
+                border-radius: 50px;
+                border-style: solid;
+                border-width: thin;
+                border-color:lightgray;
+                padding-left: 20px;
+                width: 600px;
+                max-width: 80%;
+                padding-top: 0%;
+            }
+            input{
+                border-style: none;
+                padding-top: 1%;
+            }
+        </style>
+    </head>
+    <header>        
+        <a href="image.html">Google Image Search</a>
+        <a href="advanced.html">Google Advanced Search</a>
+    <header>
+    <body>
+        <div>
+            <div id="h1">
+                <h1>
+                    <span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+                </h1>
+            </div>
+            <form method="GET" action="https://google.com/search">
+                <input id="input" type="text" name="q">
+            <br>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky" name=btnI>
+            </form>
+        </div>
+    </body>
+</html>
